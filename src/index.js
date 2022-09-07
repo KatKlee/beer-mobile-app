@@ -1,13 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import StartApp from './pages/startpage/StartApp';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import BeersOverview from './pages/overview/BeersOverview';
+/* import BeerRandom from './pages/beer_random_detail/BeerRandom'; */
+import BeerDetail from './pages/beer_detail/BeerDetail';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<StartApp />} />
+        <Route path='/beers' element={<BeersOverview />} />
+        <Route path='/beers/:beerid' element={<BeerDetail />} />
+        {/* <Route path='/beers/random' element={<BeerRandom />} /> */}
+      </Routes>
+    </BrowserRouter>
+
   </React.StrictMode>
 );
 
