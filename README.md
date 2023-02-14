@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+## Beer App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Eine React-Anwendung über Biere. Eine umfangreiche Sammlung verschiedenster Biere und Biersorten, in der per Navigation gestöbert und Details eines ausgewählten Bieres eingesehen werden können.
 
-## Available Scripts
+Eine React-App unter Verwendung von Daten aus einer API.
 
-In the project directory, you can run:
+Verwendete Sprachen/Tools: html, css, javaScript und reactJS.
 
-### `npm start`
+Die Besonderheiten dieses Projekts:  
+– Routing per BrowserRouter/Routes/Route (react router dom)  
+– per Link (react router dom) Navigation von Seite zu Seite  
+– useParams und UseNavigate (react router dom)  
+– useEffect und useState (react)  
+– fetch API und promises für den Zugriff auf die API und das Auffangen und Speichern der Daten  
+– Array-Methode .map um durch unsere Daten zu iterieren  
+– Zugreifen auf Key-value-pairs des Arrays mit Objekten aus API  
+– String interpolation mit eingebetteten expressions durch template literals für eine flexible Abfrage/Befüllung
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Thema, Inhalte und Design nach Vorgaben.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+/
 
-### `npm test`
+*A react app about beers. An extensive collection of various beers and beer types, which can be browsed via navigation and details of a selected beer can be viewed.*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*A react app using data from an API.*
 
-### `npm run build`
+*Languages/tools: html, css, javaScript and reactJS.*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*The specifics of this project:  
+– Routing per BrowserRouter/Routen/Route (react router dom)  
+– Link (react router dom) navigation from page to page  
+– useParams and UseNavigate (react router dom)  
+– useEffect and useState (react)  
+– fetch API and promises for accessing the API and catching and storing the data  
+– Array method .map to iterate through our data  
+– Accessing key-value-pairs of the array with objects from API  
+– String interpolation with embedded expressions through template literals for flexible query/filling*
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*Theme, content and design according to given specifications.*
