@@ -4,7 +4,7 @@ Eine React-Anwendung über Biere. Eine umfangreiche Sammlung verschiedenster Bie
 
 Eine React-App unter Verwendung von Daten aus einer API.
 
-Verwendete Sprachen/Tools: html, css, javaScript und reactJS.
+Verwendete Sprachen/Tools: HTML, CSS, JavaScript und reactJS.
 
 Die Besonderheiten dieses Projekts:  
 – Routing per BrowserRouter/Routes/Route (react router dom)  
@@ -24,7 +24,7 @@ Thema, Inhalte und Design nach Vorgaben.
 
 *A react app using data from an API.*
 
-*Languages/tools: html, css, javaScript and reactJS.*
+*Languages/tools: html, css, javascript and reactJS.*
 
 *The specifics of this project:  
 – Routing per BrowserRouter/Routen/Route (react router dom)  
