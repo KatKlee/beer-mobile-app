@@ -2,6 +2,9 @@
 
 Eine React-Anwendung über Biere. Eine umfangreiche Sammlung verschiedenster Biere und Biersorten, in der per Navigation gestöbert und Details eines ausgewählten Bieres eingesehen werden können.
 
+Try:  
+https://supercode-beer-app.onrender.com
+
 Eine React-App unter Verwendung von Daten aus einer API.
 
 Verwendete Sprachen/Tools: HTML, CSS, JavaScript und reactJS.
@@ -21,6 +24,9 @@ Thema, Inhalte und Design nach Vorgaben.
 /
 
 *A react app about beers. An extensive collection of various beers and beer types, which can be browsed via navigation and details of a selected beer can be viewed.*
+
+*Try:  
+https://supercode-beer-app.onrender.com*
 
 *A react app using data from an API.*
 
